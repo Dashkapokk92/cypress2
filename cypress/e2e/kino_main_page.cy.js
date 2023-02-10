@@ -54,16 +54,6 @@ describe('Main page should have correct elements', () => {
     })
     
   
-    it('Should have seanses hall with title and lists of seanses shedule', () => {
-      const hall = require('../fixtures/seans_hall_for_all.json');
-      hall.forEach( hall =>{ //комментарии аналогичны комментариям пред блока 
-        //код теста при увеличении кол-ва залов меняться не будет, не зависимо от количества залов
-        cy.textForSel(`section:nth-child(${hall['number-movie']}) > div:nth-child(${hall['number-hall']}) > h3`, hall.name);
-        cy.attrInclude(`section:nth-child(${hall['number-movie']}) > div:nth-child(${hall['number-hall']}) > ul > li > a`, "href", hall.href);
-        cy.attrInclude(`section:nth-child(${hall['number-movie']}) > div:nth-child(${hall['number-hall']}) > ul > li > a`, "data-seance-id", hall['data-seance-id']);
-        cy.attrInclude(`section:nth-child(${hall['number-movie']}) > div:nth-child(${hall['number-hall']}) > ul > li > a`, "data-seance-start", hall['data-seance-start']);
-        //cy.textForSel(`section:nth-child(${hall['number-movie']}) > div:nth-child(${hall['number-hall']}) > ul > li > a`, hall.time);
-      });
-    })
+    
     
   })

@@ -3,7 +3,7 @@
     "checkFilmName" : "div:contains('data.newHall') > h3",
     "hallName" : "data.newHall",
     "checkFilmTime" : "div:contains('data.newHall') > div > div > .conf-step__seances-movie-start",
-    "filmTime" : "23:45",
+    "filmTime" : "10:00",
     "tomorrowDayClick" : "a.page-nav__day:nth-child(2)",
     "freeChain" : ".buying-scheme__chair_standart:not(.buying-scheme__chair_taken):first",
 
