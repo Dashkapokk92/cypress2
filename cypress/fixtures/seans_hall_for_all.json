@@ -1,0 +1,38 @@
+
+    [
+        {"number-movie" : 1,
+            "number-hall": 2, 
+            "name" : "SuperHall" ,
+            "href" : "#",
+            "data-seance-id" :  "141",
+            "data-seance-start" : "540",
+            "time" : "23:45"
+        },
+    
+        {"number-movie" : 1,
+            "number-hall": 3, 
+            "name" : "TEST HALL" ,
+            "href" : "#",
+            "data-seance-id" :  "139",
+            "data-seance-start" : "1425",
+            "time" : "23:45"
+        },
+    
+        {"number-movie" : 2,
+            "number-hall": 2, 
+            "name" : "Hercules" ,
+            "href" : "#",
+            "data-seance-id" :  "94",
+            "data-seance-start" : "840",
+            "time" : "14:00"
+        },
+    
+        {"number-movie" : 2,
+            "number-hall": 3, 
+            "name" : "data.newHall" ,
+            "href" : "#",
+            "data-seance-id" :  "96",
+            "data-seance-start" : "600",
+            "time" : "10:00"
+        }
+    ]

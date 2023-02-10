@@ -1,0 +1,22 @@
+{
+    "__bronirovaine__" : 0,
+    "checkFilmName" : "div:contains('data.newHall') > h3",
+    "hallName" : "data.newHall",
+    "checkFilmTime" : "div:contains('data.newHall') > div > div > .conf-step__seances-movie-start",
+    "filmTime" : "23:45",
+    "tomorrowDayClick" : "a.page-nav__day:nth-child(2)",
+    "freeChain" : ".buying-scheme__chair_standart:not(.buying-scheme__chair_taken):first",
+
+    "__login_Page__" : 1,
+    "emailField" : "input[name='email']",
+
+
+    "__kino_main_page__" : 3,
+    "days" : "a.page-nav__day",
+    "header" : "header.page-header",
+    "dayWeek" : "a.page-nav__day_today > span.page-nav__day-week",
+    "dayNumber" : "a.page-nav__day_today > span.page-nav__day-number",
+
+    "movieBlock" : "section.movie"
+
+}

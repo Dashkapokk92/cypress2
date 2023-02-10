@@ -1,0 +1,21 @@
+[
+    {"number" : 1, 
+        "title": "Train arrival", 
+        "synopsis": "Very interesting film", 
+        "duration": "1 мин. ",
+        "origin": "France"
+    },
+
+    {"number" : 2, 
+        "title": "Логан", 
+        "synopsis": "Россомаха", 
+        "duration": "90 мин. ", 
+        "origin": "США"
+    },
+    {"number" : 3, 
+        "title": "Фильм 3", 
+        "synopsis": "лучший фильм", 
+        "duration": "110 мин. ", 
+        "origin": "РФ"
+    }
+]
